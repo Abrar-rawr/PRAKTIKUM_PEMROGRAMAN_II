@@ -8,11 +8,21 @@ public class Soal3Main {
         // p1.nama = "Roi"
         p1.nama = "Roi";
         p1.asal = "Kingdom of Orvel";
+
+        // Pada bagian ini umur belum pernah diisi sehingga bernilai 0,
+        // padahal output yang diminta adalah 17. Tambahkan pengisian umur.
         p1.umur = 17;
         p1.setJabatan("Assasin");
-        System.out.println("Nama Pegawai: " + p1.getNama());
+
+        // Pada baris ini output tidak sesuai karena teksnya "Nama Pegawai: ",
+        // padahal output yang diminta "Nama: ".
+        // System.out.println("Nama Pegawai: " + p1.getNama());
+        System.out.println("Nama: " + p1.getNama());
         System.out.println("Asal: " + p1.getAsal());
         System.out.println("Jabatan: " + p1.jabatan);
-        System.out.println("Umur: " + p1.umur + " Tahun");
+
+        // Pada baris ini output tidak sesuai karena tidak ada tulisan "tahun" setelah umur.
+        // System.out.println("Umur: " + p1.umur);
+        System.out.println("Umur: " + p1.umur + " tahun");
     }
 }

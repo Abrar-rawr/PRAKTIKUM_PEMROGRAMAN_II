@@ -4,7 +4,6 @@ public class Kopi {
     public String namaKopi;
     public String ukuran;
     public double harga;
-
     private String pembeli;
 
     public void info() {
